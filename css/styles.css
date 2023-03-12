@@ -142,11 +142,12 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--nav-item-color);
+  color: var(--text-color);
   letter-spacing: 0.02em;
   display: flex;
   flex-direction: row-reverse;
   gap: 50px;
+  fill: var(--text-color);
 }
 
 /* contenedor main */
@@ -574,4 +575,14 @@ ul {
 
 .current {
   color: var(--main-interaction-color);
+}
+
+.current::after {
+  position: absolute;
+  top: 76px;
+  content: '';
+  width: 4.5em;
+  height: 4px;
+  background-color: var(--main-interaction-color);
+  border-radius: 2px;
 }
