@@ -73,6 +73,10 @@ ul {
   margin: 0;
 }
 
+.svg {
+  fill: currentColor;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -154,8 +158,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../images/Imagen.jpg');
-  fill: var(--h1-image-color);
+  background-image: linear-gradient(to bottom, #2f303a66, #2f303a66),
+    url('../images/Imagen.jpg');
 }
 
 .h1 {
@@ -441,17 +445,11 @@ ul {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-}
-
-.icon-t {
   fill: var(--border-icons-color);
 }
 
 .icon-team:hover {
   background-color: var(--main-interaction-color);
-}
-
-.icon-t:hover {
   fill: var(--white-text-color);
 }
 
@@ -522,18 +520,11 @@ ul {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-}
-
-.icon-f {
   fill: var(--white-text-color);
 }
 
 .icon-footer:hover {
   background-color: var(--main-interaction-color);
-}
-
-.icon-f:hover {
-  fill: var(--white-text-color);
 }
 
 /* costumers section icons */
@@ -591,20 +582,4 @@ ul {
 
 .current {
   color: var(--main-interaction-color);
-}
-
-.current-fondo {
-  background-color: var(--main-interaction-color);
-}
-
-.current-borde {
-  border: 1px solid var(--main-interaction-color);
-}
-
-.current-fill {
-  fill: var(--main-interaction-color);
-}
-
-.current-fill-2 {
-  fill: var(--white-text-color);
 }
