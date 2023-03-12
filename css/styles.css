@@ -553,13 +553,7 @@ ul {
   align-items: center;
   margin-top: 44px;
   margin-bottom: 150px;
-
-  /* height: 372px; */
   gap: 30px;
-}
-
-.icon-costumer {
-  fill: var(--border-icons-color);
 }
 
 .costum-icon-contain {
@@ -570,13 +564,11 @@ ul {
   width: 170px;
   border-radius: 4px;
   border: 1px solid var(--border-icons-color);
+  fill: var(--border-icons-color);
 }
 
 .costum-icon-contain:hover {
   border: 1px solid var(--main-interaction-color);
-}
-
-.icon-costumer:hover {
   fill: var(--main-interaction-color);
 }
 
