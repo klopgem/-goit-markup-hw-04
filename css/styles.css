@@ -280,7 +280,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   margin-top: 95px;
-  margin-bottom: 94px;
+  margin-bottom: 50px;
 }
 
 .container-services {
@@ -334,8 +334,8 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  /* margin-top: 94px; */
+  /* margin-bottom: 94px; */
 }
 
 .vision-introduction {
